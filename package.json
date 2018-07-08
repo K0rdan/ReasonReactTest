@@ -1,0 +1,29 @@
+{
+  "name": "react-reason-test",
+  "repository": {
+    "url": "https://github.com/K0rdan/ReasonReactTest.git"
+  },
+  "version": "0.1.0",
+  "author": "Kordan",
+  "license": "MIT",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "webpack": "webpack -w",
+    "dev": "webpack-dev-server --open",
+    "webpack:production": "NODE_ENV=production webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "reason-react": ">=0.4.2"
+  },
+  "devDependencies": {
+    "bs-platform": "^3.1.5",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
